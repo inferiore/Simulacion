@@ -1,0 +1,18 @@
+
+def FxEquilikely(a,b,x):
+    Fx = (x-a+1)*(b-a+1)
+    return Fx
+
+def FuEquilikely(a,b,u):
+    Fu = a + (b-a + 1)*u
+
+
+def FxGeometric(p,x):
+    Fx = 1-(p**(x + 1))
+    return Fx
+
+def FuGeometric(p,x):
+    Fu = 1-(p**(x + 1))
+    return Fu
+
+
